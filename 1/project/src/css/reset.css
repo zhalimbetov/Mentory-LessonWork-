@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: rgb(16, 23, 39);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    text-align: center; 
+}
+
+.pricing_section{
+    width: auto;
+    text-align: center;
+}
+
+.pricing_label {
+    color: rgb(83, 106, 208);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pricing_title{
+    color: rgb(251, 255, 254);
+    font-size: 64px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pricing_subtitle{
+    color: rgb(132, 145, 157);
+    width: 52%;
+    margin: auto;
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    justify-self: center;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+    color: rgb(182, 182, 182);
+ }
+}
+
+
+
+
+
+

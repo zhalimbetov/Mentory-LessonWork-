@@ -1,0 +1,24 @@
+button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn{
+    position: relative;
+    padding: 8px 90px;
+    margin-top: 20px;
+}
+
+.btn.card_button{
+    background-color: rgb(97, 95, 255);
+    color: rgb(251, 255, 254);
+    border-radius: 5px;
+    transition: all .33s ease-in-out;
+}
+
+.btn.card_button:hover{
+    background-color: rgb(46, 97, 62);
+    color: rgb(255, 255, 255);
+}

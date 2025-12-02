@@ -1,0 +1,18 @@
+.box{
+    margin-top: 75px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page{
+
+}
+
+.pic{
+    width: 25%;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 15px
+}
