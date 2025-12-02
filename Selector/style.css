@@ -1,0 +1,31 @@
+body {
+    background: #c4c4c4;
+}
+.container > .paragraph {
+    color: rgb(7, 190, 71);
+    background: black;
+}
+
+.container > a {
+    position: absolute;
+    margin: 100px 0;
+    padding: 10px 40px;
+    width: 150px;
+    text-align: center;
+    background: rgb(1, 24, 1);
+    text-decoration: none;
+    border-radius: 7px;
+    color: rgb(18, 134, 37);
+    transition: 0.33s ease-in-out;
+
+    &:hover {
+        color: rgb(30, 207, 59);
+        background: rgb(2, 57, 2);
+    }
+}
+
+.box ~ .select {
+    color: rgb(0, 0, 0);
+    background: rgb(0, 255, 68);
+}
+
