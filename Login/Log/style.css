@@ -102,3 +102,26 @@ body {
     background: #373737;
     color: #ffffff;
 }
+
+.home {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.home a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #858585;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+    &:hover {
+        background: #999999;
+        box-shadow: 0 8px 15px rgba(147, 147, 147, 0.2);
+    }
+}
